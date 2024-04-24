@@ -1,0 +1,48 @@
+body{
+    color: black;
+    background-color: goldenrod;
+}
+/*div styles*/
+.common{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    font-style: italic;
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+}
+.imgcenter{
+    display: block;
+    margin: 20px;
+    border: 10px solid purple;
+}
+.header-2{
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.tableauPlaceholder{
+    margin: auto;
+    display: block;
+}
+.description{
+    font-size: larger;
+}
